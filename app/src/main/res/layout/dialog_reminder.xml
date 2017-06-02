@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <EditText
+        android:hint="Ingrese el nombre"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:id="@+id/nameEt"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        android:padding="8dp"/>
+
+    <ImageButton
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_save_white_24dp"
+        android:theme="@style/AccentButton"
+        android:id="@+id/saveBtn"
+        android:layout_width="57dp"
+        android:layout_height="57dp" />
+    
+</LinearLayout>

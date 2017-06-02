@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="cl.mac.remembercall.DetailActivity">
+
+    <EditText
+        android:id="@+id/descriptionEt"
+        android:lines="5"
+        android:padding="8dp"
+        android:hint="Esciba el motivo de la llamada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/phoneEt"
+        android:hint="Ingrese el numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/callBtn"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="LLAMAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
